@@ -1,0 +1,10 @@
+VS code 
+Cmd + / = comment/uncomment code
+Cmd + S = save Documents
+Shift + Option + [down arrow] = Duplicate lines
+
+Browser
+Cmd + Shift + R = Reload [full reload with asset files]
+
+Mac to Windows 
+Cmd = Ctrl on Windows 

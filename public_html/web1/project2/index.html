@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="shortcut icon" href="./img/Group 3 (1).png" type="image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Oleo+Script+Swash+Caps:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Project 2</title>
+
+</head>
+<body>
+
+    <div id="panel"> Click Here!</div>
+    <h1>Jerry & Sherry</h1>
+    <h2>- The Cherries -</h2>
+    <img src="img/Group 3 (1).png" width="200" alt="">
+    <p>Jerry and Sherry, two vibrant cherries, were inseparable friends who always had each other's backs. With Jerry's bold, adventurous spirit and Sherry's thoughtful, calm demeanor, they made the perfect team, balancing each other out in every situation. Together, they rolled through life with laughter, tackling challenges side by side, proving that even the smallest fruit can have the greatest impact when united.</p>
+
+    <h3>The design process...</h3>
+    <img src="./img/Screenshot 2024-11-21 at 1.25.37 PM.png" alt="">
+    <img src="./img/cherry-01.jpg" alt="">
+    <p>These characters were first created in my sketch book. The idea of cherries came to me because I was in the middle of drinking a juice box that was "fruit punch" flavored, and on the box was apples, grapes, strawberries and... cherries!!!!</p>
+
+    <br>
+
+    <button id="btn" onclick="top.location.href = '../project3/index.html'"> Play my Game!</button>
+
+
+
+    <script>
+            const panel = document.getElementById("panel");
+            const sound = new Audio("sound/magical-twinkle-242245.mp3");
+
+            panel.onclick = function() {
+            this.classList.toggle("slide-up");
+            sound.play();
+            }
+
+    </script>
+
+  
+
+    
+
+</body>
+</html>

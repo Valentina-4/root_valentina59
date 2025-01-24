@@ -1,0 +1,20 @@
+* {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: hsl(37, 71%, 69%);
+    color: rgb(0, 0, 0);
+  }
+  
+  main article {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(480px, 2fr));
+  }
+  main article img {
+    width: 100%;
+    height: auto;
+  }

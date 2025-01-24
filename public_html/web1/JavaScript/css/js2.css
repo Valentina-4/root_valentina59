@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+   background-color: rgb(35, 34, 34);
+
+}
+
+h1 {
+
+  font-size: 50px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, rgb(255, 221, 0), #f7f1ba);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  padding: 30px;
+  letter-spacing: 5px;
+  text-align: center;
+  
+}
+
+ #pacman {
+        width: 0px;
+        height: 0px;
+        border-right: 60px solid transparent;
+        border-top: 60px solid yellow;
+        border-left: 60px solid yellow;
+        border-bottom: 60px solid yellow;
+        border-top-left-radius: 60px;
+        border-top-right-radius: 60px;
+        border-bottom-left-radius: 60px;
+        border-bottom-right-radius: 60px;
+        transition: all 0.5s ease-in;
+       
+   }
+
+   div {
+     margin: 20px;
+   }
+
+#pacman.change-me{
+  border-left: 60px solid pink;
+  transform: translateX(200px) rotate(360deg) scale(1.5) 
+
+}

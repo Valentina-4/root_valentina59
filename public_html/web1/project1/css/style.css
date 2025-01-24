@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 44px;
+    background-color:rgba(239, 173, 179, 1);
+    
+}
+header{
+     /*  width: 100%;
+    height: 210px;
+    background-color: rgba(250, 219, 222, 1);
+    padding: 20px;
+    position: fixed;
+    Checkerboard Cross Pattern */
+
+    box-sizing: border-box;
+
+    position: fixed;
+    width: 100%;
+    height: 200px;
+
+    background: url(.png), #FADBDE;
+    border: 3px solid #BA8186;
+
+}
+
+header div {
+    width: 200px;
+
+
+}
+main{ 
+    /* padding: 20; */
+    /* padding-top: 160px; */
+    /* for 4 positions; top right bottom left */
+    padding: 205px 3px 3px 3px;
+}
+main article p {
+
+    max-width: 65ch;
+
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+    font-family: koulen;
+    text-shadow: 2px 2px 2px #BA8186;
+    
+
+}
+
+footer{
+    padding: 20px;
+    background-color: rgba(250, 219, 222, 1);
+    text-align: center;
+}
+
+#banner{
+    background-image: url("../img/image1.png");
+    background-size: cover;
+    width: 100%;
+    height: 30vh;
+    border: 5px solid #BA8186;
+   
+}
+
+a:hover{
+    color: rgb(201, 34, 59);
+
+}
+
+nav a{
+    color: white;
+    text-decoration: 0;
+    border: #BA8186;
+
+}
+
+nav {
+    position: absolute;
+    right: -10px;
+    top: 150px;
+
+}
+
+h1{
+    margin-left: 70px;
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    font-family: 'Koulen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 145px;
+    color: #FFFFFF;
+    text-shadow: 5px 4px 7px rgba(0, 0, 0, 0.25);
+    }
+
+
+h2{
+    font-family: 'Kufam';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 62px;
+    color: #FFFFFF;
+    background-color: rgba(250, 219, 222, 1);
+    padding: 15px;
+    
+    background-image: url(../img/Group\ 2.png);
+    background-repeat: no-repeat;
+    background-position: center right ;
+    background-size: 50px;
+    
+   
+}
+
+div img {
+    position: absolute;
+    left: 15px;
+    top: 20px;
+}
+
+
+#interests {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 20px;
+    padding: 15px;
+
+}
+
+
+#interests figure img {
+    width: 100%;
+
+}
+ 
+#interests figcaption {
+        font-family: kufman;
+        color: rgba(82, 53, 56, 1);
+  }
+
+
+ #aboutme {
+   padding: 15px;
+  
+ }
+
+ h3{
+    font-family: koulen;
+    color: white;
+    text-shadow: 5px 4px 7px rgba(82, 53, 56, 1);
+    letter-spacing: 7px;
+ }
+
+ h4{
+    font-family: 'Kufam';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 62px;
+    color: #FFFFFF;
+    background-color: rgba(250, 219, 222, 1);
+    padding: 15px;
+    
+    background-image: url(../img/Vector.png);
+    background-repeat: no-repeat;
+    background-position: center right ;
+    background-size: 60px;
+    
+
+ }
+
+
+header, #banner, main, footer {
+    max-width: 1000px;
+}
+
+h5 { background-color: #FADBDE;
+    font-family: 'Kufam';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 62px;
+    color: #BA8186;
+    padding: 10px;
+    background-image: url(../img/Vector\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center right ;
+    background-size: 30px;
+    max-height: 80px;
+
+}
+
+h6 { background-color: #FADBDE;
+    font-family: 'Kufam';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 62px;
+    color: #BA8186;
+    padding: 10px;
+    background-image: url(../img/Vector\ \(2\).png);
+    background-repeat: no-repeat;
+    background-position: center right ;
+    background-size: 30px;
+    
+
+}
+
+h7 {background-color: #FADBDE;
+    font-family: 'Kufam';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 62px;
+    color: #BA8186;
+    padding: 10px;
+    background-image: url(../img/Vector\ \(3\).png);
+    background-repeat: no-repeat;
+    background-position: center right ;
+    background-size: 30px;
+    max-height: 80px;
+}

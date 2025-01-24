@@ -1,0 +1,8 @@
+./ = means here | also nothing means here 
+../ = exit current folder
+/ = go to utmost root folder or root Domain 
+
+http:// = open external web adress
+https;// = open external web adress with SSL encryption (safer) 
+
+file;// = browse local files & folders 

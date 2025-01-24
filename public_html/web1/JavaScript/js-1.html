@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript 1</title>
+</head>
+<body>
+    <h1>JavaScript Demo 1</h1>
+    <button id="loader" onclick="loadstuff()">Click Me To Collect 1,000,000,000$!</button>
+    <main id="content"></main>
+    <p><audio src="./sounds/relaxing-guitar-loop-v5-245859.mp3" controls></audio></p>
+
+    <script>
+        alert("Why are you stalking me... ;)");
+        console.log("Page Loaded Successfully!")
+        
+        /**
+         * Varriable
+        */
+
+        // Dynamic variable "let"
+
+        let myName = "Valentina";
+        
+        // a constant variable "const"
+        const pi = 3.14159265;
+
+        //Math operators; + = / *
+
+        console.log("PI X 7 = " + pi * 7);
+        
+        // Concatenate strings (text data) with other Strings or Dynamic Data with +
+
+        /**
+         * Functions
+         */
+
+         function eatPizza() {
+            alert("Yummy 🍕");
+         }
+
+         eatPizza();
+
+
+         //New ES6 fUNCTION
+        let makePizza = () => {
+            console.log("adding ingredients... and Bake!🧑‍🍳")
+         };
+
+        const myContainer = document.getElementById("content");
+        let myAudio = new Audio("sounds/relaxing-guitar-loop-v5-245859.mp3")
+         
+        
+
+        function loadstuff(){
+            myAudio.play();
+            myContainer.innerHTML = '<p>Hello</p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6Ce0v6EbBQJ4mFzTkFpB_poZ-YAuy3D0Hw1xmuaEyBJ4CrlBGfhyBhEtBxZYnLYlsQzE&usqp=CAU"/>';
+        }
+
+         
+
+
+    </script>
+
+</body>
+</html>

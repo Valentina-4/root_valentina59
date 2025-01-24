@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(155, 134, 121);
+}
+
+.circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: rgb(172, 196, 164);
+    text-align: center;
+    align-content: center;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+h1 {
+   font-size: 50px;
+   font-weight: 600;
+   background-image: linear-gradient(to left, rgb(161, 193, 161), #dcf7ba);
+   color: transparent;
+   background-clip: text;
+   -webkit-background-clip: text;
+   padding: 30px;
+   letter-spacing: 5px;
+   text-align: center;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+div {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    color: rgb(155, 134, 121);
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: gainsboro;
+    text-align: center;
+    align-content: center;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    transition: all 0.3s ease-in;
+
+}
+
+.circle.square {
+    border-radius: unset;
+}
+
+.circle.move-me { 
+    transform: translateX(300px) rotate(13deg) scale(1.5);
+    transition: all 0.3s ease-in;
+}
+
+.circle.make-round {
+    border-radius: 50%;
+    
+}
