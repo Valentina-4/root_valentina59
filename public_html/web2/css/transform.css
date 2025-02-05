@@ -1,0 +1,23 @@
+
+#mountain, #flower, #pinkmountain {
+    transition: transform 0.5s;
+}
+
+#mountains:hover {
+    transform: rotate(45deg);
+}
+
+#flower:hover{
+    transform: scale(2);
+}
+
+.move-right {
+    transform: translateX(900px);
+}
+
+article section{
+    position: absolute;
+    width: 500px;
+    top: 2.44em;
+    background-color: rgb(27, 27, 27);
+}
