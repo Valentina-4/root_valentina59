@@ -3,8 +3,8 @@
     transition: transform 0.5s;
 }
 
-#mountains:hover {
-    transform: rotate(45deg);
+#mountain:hover {
+    transform: rotate(10deg);
 }
 
 #flower:hover{
