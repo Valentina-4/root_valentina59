@@ -18,7 +18,7 @@ main{
   .scene{
     position: relative;
     transform-style: preserve-3d;
-    animation: rotate 30s linear infinite; 
+    animation: rotate 50s linear infinite; 
   
   } 
   
@@ -47,7 +47,7 @@ main{
     top: -1em;
     left: -1em;
   
-    animation: rotate 5s linear infinite; 
+    animation: rotate 30s linear infinite; 
     
   
   }
@@ -66,10 +66,10 @@ main{
     width: 100%;
     height: 100%;
     background-color: rgba(12, 213, 220, 0.5);
-    /* box-shadow: inset 0 0 0.5em 0 rgb(12 24 36 / 0.75); */
+    box-shadow: inset 0 0 0.5em 0 rgba(19, 50, 49, 0.75);
   }
   
-  /* transform: rotateY(180deg) translateZ(1em); */
+ 
   .front{
     transform: translateZ(1em);
   }
@@ -101,8 +101,6 @@ main{
     border-radius: 50%;
     left: -.5em;
     bottom: 1em;
-    /* background-image: radial-gradient(circle at top, rgb(33 66 99 / 0.9), rgb(0 33 66 / 1));
-    animation: rotate 30s linear infinite reverse; */
   }
   
   /** @keyframe animations */
@@ -116,11 +114,3 @@ main{
     }
   } 
   
-  /* @keyframes rotate{
-    0%{
-      transform: rotateZ(0deg);
-    }
-    100%{
-      transform: rotateX(360deg);
-    }
-  } */
