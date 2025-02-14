@@ -37,4 +37,8 @@ figure:hover .hidden{
 figure:hover .visible{
     opacity: 0;
 }
+
+img {
+    width: 300px;
+}
   

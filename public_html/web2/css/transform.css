@@ -1,4 +1,8 @@
-
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 #mountain, #flower, #pinkmountain {
     transition: transform 0.5s;
 }
@@ -8,7 +12,7 @@
 }
 
 #flower:hover{
-    transform: scale(2);
+    transform: scale(1.2);
 }
 
 .move-right {
@@ -21,3 +25,12 @@ article section{
     top: 2.44em;
     background-color: rgb(27, 27, 27);
 }
+
+img {
+    width: 300px;
+}
+
+#pinkmountain {
+   transform:  alternate-reverse;
+}
+
