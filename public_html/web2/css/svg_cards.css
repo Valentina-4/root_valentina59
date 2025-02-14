@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, min-max (200px, 300px));
+}
+
+#animated, #hovered{
+  stroke: #5a8b6b;
+  fill: none; 
+  stroke-width: 3;
+  stroke-dasharray: 1200;
+  stroke-dashoffset: 1200;
+}
+
+#animated{
+    animation: tracer 1s linear forwards;
+  }
+  
+  
+  a:hover #hovered{
+    animation: tracer 1s linear forwards;
+  }
+  
+  #cards a, #cards article{
+    position: relative;
+  }
+  #cards article{
+    position: absolute;
+    top: 0;
+  }
+  #cards section{
+    padding: 2.4rem 1rem;
+  }
+  
+  
+  @keyframes tracer {
+    0% {
+      stroke-dashoffset: 1200;
+    }
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+  
