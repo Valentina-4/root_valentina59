@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+}
+
+body{
+    background-color: #060B1F;
+}
+
+a {
+    color: #5F7AFF;
+}
+
+a:hover {
+    color: white;
+}
+
+h1 {
+    color: white;
+    background-color: #FF307D;
+    font-family: "Manrope", serif;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-family: "Manrope", serif;
+}
+
+h3 {
+    color: white; 
+    font-family: "Manrope", serif;
+}
+
+p {
+    color: white;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 200;
+}
+
+div p{
+    font-family: "Manrope", serif;
+    font-weight: 400;
+}
+
+footer {
+    background-color: #FF307D;
+    text-align: center;
+}
