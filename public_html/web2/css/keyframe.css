@@ -1,0 +1,34 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#coffee {
+    animation-name: floatingAround;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+img {
+    width: 300px;
+}
+
+@keyframes floatingAround{
+   0%{
+    transform: translateX(0px);
+   } 
+   48%{
+    transform: translateX(600px);
+   }
+   50%{
+    transform: rotateY(180deg) translateX(-600px);
+   }
+   98%{
+    transform: rotateY(180deg) translateX(0px);
+   }
+   100%{
+    transform: translateX(0px);
+   }
+}

@@ -23,7 +23,7 @@
 
   #cards img {
     width: 100%;
-    aspect-ratio: 16/6;
+    aspect-ratio: 2/2;
     object-fit: cover;
     object-position: center center;
     position: absolute;
