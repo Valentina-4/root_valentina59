@@ -1,55 +1,187 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    scroll-behavior: smooth;
-    width: 100%;
+  scroll-behavior: smooth;
+  width: 100%;
 }
 
-body{
-    background-color: #060B1F;
+#bg {
+  top: 0;
+  left: 0;
+  opacity: 65%;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 0;
+}
+
+nav{
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+
+body {
+  background-color: #060b1f;
 }
 
 a {
-    color: #5F7AFF;
+  color: #ff307d;
+  font-size: 24px;
 }
 
 a:hover {
-    color: white;
+  color: white;
 }
 
+#pink{
+  background-color: #ff307d; 
+  display: grid;
+  justify-items: center;
+}
+
+div svg {
+  width: 15em;
+  height: 15em;
+}
+
+
 h1 {
-    color: white;
-    background-color: #FF307D;
-    font-family: "Manrope", serif;
-    text-align: center;
+  color: #060b1f;
+  font-family: "Manrope", serif;
+  text-align: center;
+  font-size: 45px;
+  
 }
 
 h2 {
-    color: white;
-    font-family: "Manrope", serif;
+  color: white;
+  font-family: "Manrope", serif;
+  font-size: 40px;
 }
 
 h3 {
-    color: white; 
-    font-family: "Manrope", serif;
+  color: white;
+  font-family: "Manrope", serif;
+  font-size: 40px;
+  padding-bottom: 1em;
 }
 
-p {
-    color: white;
-    font-family: "Cormorant Garamond", serif;
-    font-weight: 200;
+article div p {
+  font-size: 24px;
+  font-family: "Cormorant Garamond";
+  color: white;
 }
 
-div p{
-    font-family: "Manrope", serif;
-    font-weight: 400;
+#bluecontainer {
+  display: grid;
+  grid-template-columns: 1fr ;
+  gap: 1em;
+  padding-bottom: 4em;
+}
+
+#orangecontainer{
+  display: grid;
+  grid-template-columns: 1fr ;
+  gap: 1em;
+  padding-bottom: 4em;
+}
+
+#pinkcontainer{
+  display: grid;
+  grid-template-columns: 1fr ;
+  gap: 1em;
+  padding-bottom: 4em;
+}
+
+#drake {
+  border: 15px solid #5f7aff;
+  width: 100%;
+}  
+
+#cudi {
+  border: 15px solid #ff6542;
+  width: 100%;
+}
+
+#menitrust{
+   border: 15px solid #ff307d;
+   width: 100%;
+}
+
+#song1, #song2, #song3 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#song1{
+  background-color:#ff6542;
+}
+
+#song2{
+  background-color:#ff307d ;
+}
+
+#song3{
+  background-color:#5f7aff;
+}
+
+#contact {
+  color: #060b1f;
 }
 
 footer {
-    background-color: #FF307D;
-    text-align: center;
+  background-color: #ff307d;
+  text-align: center;
+  font-family: "Manrope";
+  font-weight: 400;
+}
+
+@media screen and (min-width: 800px ) {
+  #bluecontainer {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+}
+
+@media screen and (min-width: 1100px ) {
+  #bluecontainer {
+    grid-template-columns: 1fr 2fr;
+  }
+  
+}
+
+
+@media screen and (min-width: 800px ) {
+  #pinkcontainer {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+}
+
+@media screen and (min-width: 1100px ) {
+  #pinkcontainer {
+    grid-template-columns: 1fr 2fr;
+  }
+  
+}
+
+@media screen and (min-width: 800px ) {
+  #orangecontainer {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+}
+
+@media screen and (min-width: 1100px ) {
+  #orangecontainer {
+    grid-template-columns: 1fr 2fr;
+  }
+  
 }
