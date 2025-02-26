@@ -16,7 +16,11 @@ html {
   min-width: 100%;
   min-height: 100%;
   z-index: 0;
+  overflow: hidden;
 }
+
+
+
 
 nav{
   position: absolute;
@@ -31,15 +35,6 @@ body {
   background-color: #060b1f;
 }
 
-a {
-  color: #ff307d;
-  font-size: 24px;
-}
-
-a:hover {
-  color: white;
-}
-
 #pink{
   background-color: #ff307d; 
   display: grid;
@@ -51,6 +46,16 @@ div svg {
   height: 15em;
 }
 
+/* text */
+
+a {
+  color: #ff307d;
+  font-size: 20px;
+}
+
+a:hover {
+  color: white;
+}
 
 h1 {
   color: #060b1f;
@@ -64,6 +69,7 @@ h2 {
   color: white;
   font-family: "Manrope", serif;
   font-size: 40px;
+
 }
 
 h3 {
@@ -74,7 +80,7 @@ h3 {
 }
 
 article div p {
-  font-size: 24px;
+  font-size: 20px;
   font-family: "Cormorant Garamond";
   color: white;
 }
@@ -84,6 +90,7 @@ article div p {
   grid-template-columns: 1fr ;
   gap: 1em;
   padding-bottom: 4em;
+  padding-top: 4em;
 }
 
 #orangecontainer{
@@ -91,6 +98,7 @@ article div p {
   grid-template-columns: 1fr ;
   gap: 1em;
   padding-bottom: 4em;
+  padding-top: 4em;
 }
 
 #pinkcontainer{
@@ -98,6 +106,7 @@ article div p {
   grid-template-columns: 1fr ;
   gap: 1em;
   padding-bottom: 4em;
+  padding-top: 4em;
 }
 
 #drake {
@@ -143,6 +152,41 @@ footer {
   font-weight: 400;
 }
 
+/* transition */
+
+img{
+  transition: opacity 400ms;
+  width: 200px;
+  height: auto;
+}
+
+
+figure{
+position: relative;
+}
+
+figure .visible{
+  opacity: 1;
+  position: relative;
+} 
+
+figure .hidden{
+  opacity: 0;
+  position: absolute;
+  top:0;
+  left: 0;
+} 
+
+article:hover .hidden{
+  opacity: 1;
+}
+
+figure:hover .visible{
+  opacity: 0;
+}
+
+/* medium screen */
+
 @media screen and (min-width: 800px ) {
   #bluecontainer {
     grid-template-columns: 1fr 1fr;
@@ -150,24 +194,9 @@ footer {
   
 }
 
-@media screen and (min-width: 1100px ) {
-  #bluecontainer {
-    grid-template-columns: 1fr 2fr;
-  }
-  
-}
-
-
 @media screen and (min-width: 800px ) {
   #pinkcontainer {
     grid-template-columns: 1fr 1fr;
-  }
-  
-}
-
-@media screen and (min-width: 1100px ) {
-  #pinkcontainer {
-    grid-template-columns: 1fr 2fr;
   }
   
 }
@@ -179,9 +208,29 @@ footer {
   
 }
 
-@media screen and (min-width: 1100px ) {
-  #orangecontainer {
-    grid-template-columns: 1fr 2fr;
+
+/* large screen */
+
+@media screen and (min-width: 1200px ) {
+  #artist {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+    padding-left: 1em;
   }
   
 }
+
+@media screen and (min-width: 1200px ) {
+  #music {
+    text-align: center;
+    align-content: center;
+    font-size: 80px;
+    
+  }
+  
+}
+
+
+
+

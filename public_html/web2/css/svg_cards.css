@@ -1,49 +1,54 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+header {
+    overflow: hidden;
 }
 
-#cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, min-max (200px, 300px));
+body{
+  background-color: #f2fcd5;
 }
 
-#animated, #hovered{
-  stroke: #5a8b6b;
-  fill: none; 
-  stroke-width: 3;
-  stroke-dasharray: 1200;
-  stroke-dashoffset: 1200;
+header svg {
+    width: 300vw;
 }
 
-#animated{
-    animation: tracer 1s linear forwards;
+.move-right{
+    transform: translateX(70vw);
   }
+
+.st0{fill:#f2fcd5;}
+
+.st1{fill:#503fe6;}
+
+.st2{fill:hsl(184, 79%, 57%);}
+
+.st3{fill:#bb15c4;}
+
+.st4{fill:#b3264e;}
+
+/* animation styles */
+
+
+#purple-pink-2{
+    animation: wavemaker 19s ease-in-out infinite alternate-reverse;
+}
   
+#light-pink-2{
+    animation: wavemaker 14s ease-in-out infinite alternate;
+}
   
-  a:hover #hovered{
-    animation: tracer 1s linear forwards;
-  }
+#red-pink-4{
+    animation: wavemaker 17s ease-in-out infinite alternate-reverse;
+}
   
-  #cards a, #cards article{
-    position: relative;
-  }
-  #cards article{
-    position: absolute;
-    top: 0;
-  }
-  #cards section{
-    padding: 2.4rem 1rem;
-  }
+#pastel-pink-5{
+    animation: wavemaker 12s ease-in-out infinite alternate;
+}
   
-  
-  @keyframes tracer {
-    0% {
-      stroke-dashoffset: 1200;
-    }
-    100% {
-      stroke-dashoffset: 0;
-    }
-  }
-  
+@keyframes wavemaker {  
+0% {
+    transform: translateX(-4vw);
+}
+100% {
+    transform: translateX(-10vw);
+}
+    
+}
