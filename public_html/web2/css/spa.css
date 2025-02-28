@@ -19,6 +19,21 @@ html {
   overflow: hidden;
 }
 
+#bluecontainer:hover h2 {
+  color:#5f7aff;
+  transform: scaleY(1.6) 
+}
+
+#pinkcontainer:hover h2 {
+  color: #ff307d;
+  transform: scaleY(1.6) 
+}
+
+#orangecontainer:hover h2 {
+  color:#ff6542;
+  transform: scaleY(1.6) 
+}
+
 
 
 
@@ -69,7 +84,6 @@ h2 {
   color: white;
   font-family: "Manrope", serif;
   font-size: 40px;
-
 }
 
 h3 {
@@ -77,6 +91,12 @@ h3 {
   font-family: "Manrope", serif;
   font-size: 40px;
   padding-bottom: 1em;
+}
+
+h4{
+  color: white;
+  font-family: "Manrope", serif;
+  font-size: 40px;
 }
 
 article div p {
@@ -91,6 +111,18 @@ article div p {
   gap: 1em;
   padding-bottom: 4em;
   padding-top: 4em;
+}
+
+#bluecontainer p {
+  padding-top: 1em;
+}
+
+#orangecontainer p {
+  padding-top: 1em;
+}
+
+#pinkcontainer p {
+  padding-top: 1em;
 }
 
 #orangecontainer{
