@@ -32,7 +32,15 @@
     font-size: 40px;
     
   }
+  
+  h2{
+    font-size: 25px;
+    color: rgb(67, 60, 51);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
 
   p{
-    font-size: smaller;
+    font-size: 15;
   }
+
+

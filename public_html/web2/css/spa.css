@@ -93,11 +93,7 @@ h3 {
   padding-bottom: 1em;
 }
 
-h4{
-  color: white;
-  font-family: "Manrope", serif;
-  font-size: 40px;
-}
+
 
 article div p {
   font-size: 20px;
@@ -156,21 +152,37 @@ article div p {
    width: 100%;
 }
 
-#song1, #song2, #song3 {
-  display: grid;
-  grid-template-columns: 1fr;
-}
 
 #song1{
-  background-color:#ff6542;
+  color: #060b1f;
+  font-family: "Manrope", serif;
+  font-size: 30px;
+  display: grid;
+  grid-template-columns: 1fr;
+  display: inline-flex;
+  text-align: center;background-color:#ff6542;padding: 15px;border-radius: 1em;
 }
 
 #song2{
-  background-color:#ff307d ;
+  color: #060b1f;
+  font-family: "Manrope", serif;
+  font-size: 30px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  display: inline-flex;
+  text-align: center;background-color: #ff307d;padding: 15px;border-radius: 1em;
 }
 
 #song3{
-  background-color:#5f7aff;
+  color: #060b1f;
+  font-family: "Manrope", serif;
+  font-size: 30px;
+  display: grid;
+  grid-template-columns: 1fr;
+  display: inline-flex;
+  text-align: center;background-color:#5f7aff;padding: 15px;border-radius: 1em;
+
 }
 
 #contact {
@@ -182,6 +194,7 @@ footer {
   text-align: center;
   font-family: "Manrope";
   font-weight: 400;
+  padding: 1em;
 }
 
 /* transition */
