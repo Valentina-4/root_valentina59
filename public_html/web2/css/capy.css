@@ -34,7 +34,7 @@ body{
   }
 
 a{
-    color: rgb(247, 157, 13);;
+    color: rgb(255, 132, 0);;
     margin-left: 10px;
     font-size: 20px;
 }
@@ -49,6 +49,8 @@ header{
     display: grid;
     grid-template-columns: 3fr 1fr ;
     background-color: #38606b;
+    padding-top: 1rem;
+    padding-left: 1rem;
 }
 
 h1{
@@ -61,8 +63,23 @@ h2{
     font-size: 25px;
     color: #38606b;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 2rem;
+ }
+
+ h3{
+    font-size: 15;
+    color: #c36500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 1rem;
  }
 
 p{
     font-size: 15;
+    text-align: center;
+    margin: auto;
+    max-width: 700px;
+    padding-bottom: 10px;
 }
+
