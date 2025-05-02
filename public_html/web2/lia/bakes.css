@@ -1,0 +1,24 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#title {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #313648;
+}
+
+a {
+    color: #313648;
+}
+
+a:hover {
+    color: #9D0822;
+}
+
+footer {
+ color: #313648;
+}
+
