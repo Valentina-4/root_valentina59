@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HomeBakes</title>
     <link rel="stylesheet" href="bakes.css">
+    <link rel="stylesheet" href="cards.css">
+
 </head>
 <body>
 
     <header>
-        
-        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 207.35 236.47">
+      
+        <svg id="logo" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 207.35 236.47">
             <defs>
               <style>
                 .cls-1 {
@@ -45,34 +47,78 @@
             </g>
           </svg>
 
-    <h1 id="title">HomeBakes</h1>
+        <h1 id="title">HomeBakes</h1>
 
     <nav>
         <a href="#recipes">Recipes</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
+
     </nav>
     </header>
 
 
     <main>
-        <section id="banner">
-            <img src="" alt="">
-
+        <section>
+            <img id="banner" src="img/baking-background-bake-ingredients-banner-600nw-1023321979.webp" alt="">
         </section>
 
 
         <section id="recipes">
+         
+          <h2>Whats on the Menu...</h2>
+          
+
+          <section id="cards">
+            <a href="chocolatecake.html">
+              <article>
+                <figure>
+                  <img src="img/editedphotos-123.jpg" alt="">
+                  <img src="img/editedphotos-107.jpg" class='over'alt="">
+  
+                </figure>
+                <section id="colored">
+                  <h3>Yummy Chocolate Cake</h3>
+                  <p>Simple Ingredients, Simple Recipe!</p>
+                </section>
+              </article>
+            </a>
+            
+
+            <a href="dates.html">
+              <article>
+                <figure>
+                  <img src="img/editedphotos-109.jpg" alt="">
+                  <img src="img/editedphotos-125.jpg" class='over'alt="">
+                  
+                </figure>
+
+                <section id="colored">
+                  <h3>Date Squares</h3>
+                  <p>Soft and Chewy Treats</p>
+                </section>
+              </article>
+            </a>
+          </section>
 
         </section>
 
 
-        <section id="About">
+
+        <section id="about">
+          <h2>About Me and My Recipes</h2>
+          <img id="me" src="img/editedphotos-102.jpg" alt="">
+
+          <p>Welcome to my little corner of the baking world! My name is Valentina, and I’m the creator of HomeBakes. What started as a simple love for  indulging in my mom’s sweet treats has grown into a passion that I now take part in, creating beautiful, delicious treats that bring people together. With my favourite dessert being chocolate cake, I thought it would only be fair to share the best chocolate cake recipes ever! Give it a try and I promise it will not let you down.</p>
+
+          <p>Let’s make life sweeter together!</p>
 
         </section>
+        
     </main>
 
     <footer id="contact">
+      <h3>Contact Me</h3>
     <p>this is footer</p>
     </footer>
 
