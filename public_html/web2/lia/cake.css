@@ -1,6 +1,6 @@
 * {
-    margin: 0px;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -14,21 +14,12 @@ header {
     padding-top: 5px;
 }
 
-#banner{
-    width: 100%;
-    object-fit: cover;
-    height: 25vh;
-    display: block;
-
-}
-
 h1 {
     font-size: 30px;
     font-family: cursive;
     color: #313648;
 }
 
- 
 #logo {
     height: 60px;
     margin-left: 5px;
@@ -49,48 +40,46 @@ a {
 a:hover {
     color: #313648;
 }
-#recipes{
-    background: url(img/opacity.png);
-}
 
 h2 {
     background-color: #313648;
     color: #eaeaea;
-    padding: 1rem;
+    padding: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+h3 {
+    color: #313648;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
+   
+    
 }
 
-main{
-    background-color: #eaeaea;
-}
-
-#about{
-    display: grid;
-    grid-template-columns: 1fr ;
-    padding-bottom: 3rem;
-
+h4 {
+    color: #313648;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  
 }
 
 p {
-    margin: auto 2rem;
-    padding: 1rem;
+    color: #313648;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
 }
 
-#me{
-    width: 100%;
-    padding: 1rem;
+#recap {
+ padding-top: 2rem;
+ padding-bottom: 2rem;
 }
 
-footer {
-    color: #eaeaea;
-    background-color: #9D0822;
-    padding: 1rem;
+article {
+    margin-left: 3rem;
 }
 
-   @media screen and (min-width:925px) {
-    #me {
-      max-width: 50%;
-      align-content: center;
-      margin: auto;
-  }}
+li {
+    list-style: square;
+    list-style-position: inside;
+}
