@@ -14,20 +14,34 @@ header {
     padding-top: 5px;
 }
 
-#banner{
+#back{
+    background-image: url(img/baking-background-bake-ingredients-banner-600nw-1023321979.webp);
     width: 100%;
-    object-fit: cover;
+    background-size: cover;
     height: 25vh;
     display: block;
-
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 20px;
     font-family: cursive;
     color: #313648;
 }
 
+h4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding: 5rem;
+    
+}
+
+h5 {
+    color: #eaeaea;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1rem;
+    font-size: 25px;
+}
  
 #logo {
     height: 60px;
@@ -49,6 +63,7 @@ a {
 a:hover {
     color: #313648;
 }
+
 #recipes{
     background: url(img/opacity.png);
 }
@@ -73,7 +88,7 @@ main{
 }
 
 p {
-    margin: auto 2rem;
+    
     padding: 1rem;
 }
 
@@ -87,6 +102,24 @@ footer {
     background-color: #9D0822;
     padding: 1rem;
 }
+
+
+#cherry {  
+    animation-name: rotate;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes rotate {
+    from {
+        transform:rotate(-30deg);
+    }
+    to {
+        transform:rotateY(0deg);
+    }
+}
+
 
    @media screen and (min-width:925px) {
     #me {

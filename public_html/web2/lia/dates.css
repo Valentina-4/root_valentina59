@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 60px 1fr 1fr 2rem;
+    gap: 1rem;
+    align-items: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+
+h1 {
+    font-size: 30px;
+    font-family: cursive;
+    color: #313648;
+}
+
+#logo {
+    height: 60px;
+    margin-left: 5px;
+}
+
+
+nav {
+    overflow: hidden;
+    justify-self: right;
+
+}
+
+a {
+    color: #9D0822;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a:hover {
+    color: #313648;
+}
+
+h2 {
+    background-color: #313648;
+    color: #eaeaea;
+    padding: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+h3 {
+    color: #483331;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+h4 {
+    color: #313648;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 5px;
+}
+
+h5 {
+    color: #313648;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#time {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+p {
+    color: #314832;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+#recap {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+article {
+    margin-left: 3rem;
+}
+
+ul li {
+    list-style: square;
+    padding-left: 1rem;
+    padding-bottom: 10px;
+}
+
+li {
+    list-style-position: inside;
+}
+
+#steps li {
+    padding-bottom: 2rem;
+}
+
+#heading {
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+}
+
+img {
+    width: 350px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#cherry {
+    animation-name: rotate;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(-30deg);
+    }
+
+    to {
+        transform: rotateY(0deg);
+    }
+}
+
+
+
+@media screen and (min-width:700px) {
+    article {
+        /* max-width: 40%; */
+        /* margin-left: 10rem; */
+        margin: 0 15vw;
+    }
+
+    article p {
+        max-width: 45rem;
+    }
+
+    article img {
+        width: 90%;
+    }
+}
+
+
+@media screen and (min-width:1700px) {
+    article {
+        /* margin-left: 20rem; */
+        display: grid;
+        gap: 5rem;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
