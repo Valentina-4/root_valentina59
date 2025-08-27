@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0px;
+}
+
+body{
+    background-color: rgb(21, 14, 61);
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:hover{
+    color: rgb(255, 115, 0);
+}
+
+a{
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+}
+
+header{
+    width: 100%;
+    background-color: rgb(106, 83, 205);
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header p{
+    padding-bottom: 2rem;
+}

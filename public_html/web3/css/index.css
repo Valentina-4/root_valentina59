@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 1rem;
+  padding: 0px;
+}
+
+  body{
+    background-color: rgb(197, 237, 224);
+  }
+
+  a:hover {
+  color: rgb(3, 42, 143);
+  font-style: italic;
+  }
+
+  a{
+    color: rgb(27, 58, 35);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+
+
