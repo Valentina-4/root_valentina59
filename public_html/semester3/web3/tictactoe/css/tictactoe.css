@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #ACDAF8;
+    background-image: url(../pattern.png);
+
+}
+
+
+header{
+    padding: 4rem;
+}
+
+h1{
+    font-family: "Lakki Reddy", serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-self: center;
+    color: #f47d15;
+    text-shadow:  2px 3px 3px white;
+    font-size: 5vmin;
+    
+}
+
+p{
+    color: #5F8FAE;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 2vmin;
+    
+}
+
+#grille{
+    width: 30vmin;
+    height: 30vmin;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    
+}
+
+#message img{
+    max-width: 10vmin;
+}
+
+div{
+    border: solid #5F8FAE 3px;
+    display: grid;
+    justify-self: center;
+    height: 10vmin;
+    width: 10vmin;
+    margin: 1px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+section {
+    justify-self: center;
+}
+
+button {
+    font-family: "Lakki Reddy", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px 20px;
+    border-radius: 80px;
+    font-size: 2vmin;
+    background-color: #ffffff;
+    color: #5F8FAE;
+    border-color: #5F8FAE;
+    border-width: 0.7vmin;
+    padding-top: 20px;
+}
+
+button:hover {
+    background-color: #eceae8;
+}
+
+#button{
+    justify-self: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+   @media screen and (min-width:925px) {
+    #grille {
+      align-content: center;
+      margin: auto;
+  }}
+
+
+
