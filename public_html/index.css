@@ -112,6 +112,13 @@ nav {
   background-color: rgb(94, 126, 201) ;
 }
 
+#sem5 {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgba(234, 91, 111, 1);
+}
+
 div {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;

@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v7.0.0/dist/aframe-extras.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.5/dist/mindar-image-aframe.prod.js"></script>
+</head>
+
+<body>
+    <a-scene
+        mindar-image="imageTargetSrc: targets.mind; maxTrack: 3"
+        color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false"
+        device-orientation-permission-ui="enabled: false">
+
+        <a-assets>
+            <a-asset-item id="blueberry"
+                src="./assets/blue.gltf"></a-asset-item>
+
+            <a-asset-item id="lime"
+                src="./assets/lime.gltf"></a-asset-item>
+
+            <a-asset-item id="melon"
+                src="./assets/melon.gltf"></a-asset-item>
+        </a-assets>
+
+
+        <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
+
+        <a-entity class="clickable" mindar-image-target="targetIndex: 0">
+            <a-gltf-model rotation="0 0 0 " position="0 -0.25 0" scale="0.05 0.05 0.05" src="#blueberry"
+                animation-mixer>
+        </a-entity>
+
+        <a-entity class="clickable" mindar-image-target="targetIndex: 1">
+            <a-gltf-model rotation="0 0 0 " position="0 -0.25 0" scale="0.05 0.05 0.05" src="#lime"
+                animation-mixer>
+        </a-entity>  
+
+        <a-entity class="clickable" mindar-image-target="targetIndex: 2">
+            <a-gltf-model rotation="0 0 0 " position="0 -0.25 0" scale="0.05 0.05 0.05" src="#melon" animation-mixer>
+        </a-entity>
+        
+        <a-camera position="0 0 0" look-controls="enabled: false" cursor="fuse: false; rayOrigin: mouse;"
+                raycaster="far: ${customFields.libVersion}; objects: .clickable"></a-camera>  
+
+    </a-scene>
+</body>
+
+    <script>
+        const models = document.querySelectorAll(".clickable");
+        for (const model of models) {
+            model.addEventListener("click", () => {
+                alert("YEAH");
+            })
+        }
+    </script>
+
+</html>
+
